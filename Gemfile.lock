@@ -42,7 +42,7 @@ GEM
     builder (3.2.3)
     byebug (9.0.6)
     concurrent-ruby (1.0.5)
-    domain_name (0.5.20170223)
+    domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.6.0)
     ffi (1.9.18)
@@ -69,6 +69,7 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
+    pg (0.20.0)
     puma (3.8.2)
     rack (2.0.3)
     rack-cors (0.4.1)
@@ -101,7 +102,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
-    rest-client (2.0.1)
+    rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
@@ -125,7 +126,7 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.2)
+    unf_ext (0.0.7.4)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
@@ -136,6 +137,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.7)
   rack-cors
   rails (~> 5.1.0)
